@@ -25,6 +25,13 @@
     font-family: "flexa";
 }
 
+
+
+#content{
+    font-family: "flexa";
+    background-color: #fdf5e3;
+}
+
 a{
     color: black;
     text-decoration: none;
@@ -36,4 +43,73 @@ a:visited{
 
 a:hover{
     color: white;
+}
+
+/*ESTILOS HEADER*/
+
+header{
+    position: static;
+width: 1768px;
+height: 120px;
+margin-top: 4%;
+margin-left: 3%;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+
+}
+
+header h1 a{
+    float: left;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64.1667px;
+    line-height: 78px;
+    margin-top: 21px;
+    
+}
+
+header h1 a span b{
+    font-weight:500;
+    
+}
+
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    
+}
+
+nav ul li{
+    float: right;
+    display: block;
+    font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+padding-right: 50px;
+padding-left: 50px;
+
+border-left: 2px solid black;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-top: 12px;
+margin-bottom: 9px;
+}
+
+nav ul li a{
+    margin-top: 0px;
+    display: block;
+    text-align: center;
+}
+
+/*FIN HEADER*/
+
+/*COMIENZO CONTENIDO*/
+
+#content{
+    position: static;
 }
