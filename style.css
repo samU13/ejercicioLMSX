@@ -226,13 +226,15 @@ border-bottom: 2px solid black;
 
 #copy{
     float: left;
-    margin-top: 15px;
+    margin-top: 18px;
+    padding-right: 283px;
+    border-right: 2px solid black;
     
 }
 
 #enlaces{
     float:right;
-    margin-top: 15px;
+    margin-top: 18px;
 }
 
 #enlaces p a{
