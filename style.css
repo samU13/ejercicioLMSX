@@ -22,13 +22,14 @@
     padding: 0px;
     margin: 0px;
     background-color: #fdf5e3;
-    font-family: "flexa";
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 
 
 #content{
-    font-family: "flexa";
+    position: static;
+    
     background-color: #fdf5e3;
 }
 
@@ -42,7 +43,7 @@ a:visited{
 }
 
 a:hover{
-    color: white;
+    color: rgb(218, 211, 211);
 }
 
 /*ESTILOS HEADER*/
@@ -51,8 +52,10 @@ header{
     position: static;
 width: 1768px;
 height: 120px;
-margin-top: 4%;
+margin-top: 2%;
 margin-left: 3%;
+margin-right: 3%;
+margin-bottom: 1%;
 border-top: 2px solid black;
 border-bottom: 2px solid black;
 
@@ -87,17 +90,16 @@ nav ul li{
     float: right;
     display: block;
     font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 36px;
-padding-right: 50px;
-padding-left: 50px;
-
-border-left: 2px solid black;
-padding-top: 30px;
-padding-bottom: 30px;
-margin-top: 12px;
-margin-bottom: 9px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-left: 2px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 12px;
+    margin-bottom: 9px;
 }
 
 nav ul li a{
@@ -112,4 +114,132 @@ nav ul li a{
 
 #content{
     position: static;
+    margin: 2% 4% 2%;
+    
 }
+#news{
+    width: 1760px;
+height: 618px;
+
+}
+
+#noticias{
+    float: left;
+    display: block;
+    margin-top: 4%;
+    width: 500px;
+    height: 417;
+}
+
+#noticias .tituloNoticia{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47.5px;
+    line-height: 58px;
+}
+#article{
+    font-style: normal;
+font-weight: normal;
+font-size: 27.0824px;
+line-height: 33px;
+}
+
+#fecha{
+    
+font-style: normal;
+font-weight: 275;
+font-size: 24px;
+line-height: 29px;
+}
+
+
+#video{
+    
+    width: 411px;
+height: 310px;
+    display: block;
+    float: right;
+    margin-right: 20px;
+    border-bottom: 2px solid black;
+
+}
+
+#video iframe{
+    width: 100%;
+}
+
+#imagen{
+    
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-top: 106px;
+    margin-left: 185px;
+    border-bottom: 2px solid black;
+
+
+}
+
+#imagen img{
+    width: 597px;
+height: 387px;
+}
+
+#audios{
+    
+    float: right;
+    width: 335px;
+height: 118px;
+margin-top: 184px;
+margin-right: 55px;
+border-bottom: 2px solid black;
+
+
+}
+
+#news div .theday{
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27.0824px;
+    line-height: 33px;
+}
+
+/*FIN CONTENIDO*/
+
+/*COMIENZO FOOTER*/
+
+footer{
+    width: 1747px;
+height: 60px;
+margin-left: 3%;
+margin-right: 3%;
+margin-bottom: 1%;
+font-style: normal;
+font-weight: 275;
+font-size: 18px;
+line-height: 22px;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+}
+
+#copy{
+    float: left;
+    margin-top: 15px;
+    
+}
+
+#enlaces{
+    float:right;
+    margin-top: 15px;
+}
+
+#enlaces p a{
+    padding-right: 20px;
+}
+
+
+
+
+
