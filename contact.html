@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>theLMSXnews Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/xicon" href="img/logo1.png">
+    <link rel="stylesheet" href="styleContact.css">
+</head>
+
+<body>
+    <!---Inicio de la cabezera-->
+
+    <header id="header">
+
+
+
+        <h1>
+            <a href="index.html">
+                <span>the<b>LMSX</b>news</span>
+            </a>
+        </h1>
+
+
+
+        <!--MENU de Navegacion dentro del Header-->
+
+        <nav id="nav">
+            <ul class="menu">
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="calendar.html">Calendar</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!--Fin MENU-->
+
+    <!--Comienzo CONTENIDO CENTRAL-->
+
+    <div id="content">
+
+        <div id="contact">
+            <span>Contact Form</span>
+        </div>
+
+        <form action="#" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <label for="name">Apellidos:</label>
+                    <input type="text" id="apellidos" name="user_lastname">
+                </li>
+                
+                <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_mail">
+                </li>
+                
+                
+                <p id="sexo">
+                    <label for="sexo">Sexo:</label>
+                    
+                    
+                    <label for="hombre"> Hombre</label>
+                    <input type="radio" name="sexo" value="home" id="hombre" />
+                    
+                    <label for="mujer"> Mujer</label>
+                    <input type="radio" name="sexo" value="mujer" checked="checked" id="mujer" />
+
+                </p>
+                <p id="edad">
+                    <label>Edad?</label>
+                    
+                    
+                    
+                    <label for="direccion"> +18</label>
+                    <input name="mas18" type="checkbox" value="mas18" id="mas18" />
+                    
+                    <label for="menor18">Menor 18</label>
+                    <input name="menor18" type="checkbox" value="menor18" id="menor18" />
+                </p>
+
+                <li>
+                    <label for="texto">Escribe tu mensaje:</label>
+                    <textarea id="texto" name="user_message">
+                         
+                    </textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Send</button>
+                </li>
+            </ul>
+        </form>
+
+    </div>
+
+
+    <!--FOOTER-->
+
+
+
+
+
+    <footer id="footer">
+        <div id='copy'>
+            <p>&copy; theLMSXnews. All rights reserved. </p>
+        </div>
+        <div id='enlaces'>
+            <p><a href="#">Twitter</a><a href="#">Instagram</a><a
+                    href="https://www.edu.xunta.gal/centros/iesmurallaromana/">Web Muralla Romana</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,4 +1,3 @@
-
 /*ESTILOS GENERALES*/
 
 *{
@@ -54,7 +53,7 @@ header h1 a{
     
 }
 
-header h1 a span strong{
+header h1 a span b{
     font-weight:500;
     
 }
@@ -93,104 +92,6 @@ nav ul li a{
 
 /*FIN HEADER*/
 
-/*COMIENZO CONTENIDO*/
-
-#content{
-    position: static;
-    margin: 2% 4% 2%;
-    
-}
-#news{
-    width: 1760px;
-height: 618px;
-
-}
-
-#noticias{
-    float: left;
-    display: block;
-    margin-top: 4%;
-    width: 500px;
-    height: 417;
-}
-
-#noticias .tituloNoticia{
-    
-    font-style: normal;
-    font-weight: bold;
-    font-size: 47.5px;
-    line-height: 58px;
-}
-#article{
-    font-style: normal;
-font-weight: normal;
-font-size: 27.0824px;
-line-height: 33px;
-}
-
-#fecha{
-    
-font-style: normal;
-font-weight: 275;
-font-size: 24px;
-line-height: 29px;
-}
-
-
-#video{
-    
-    width: 411px;
-height: 310px;
-    display: block;
-    float: right;
-    margin-right: 20px;
-    border-bottom: 2px solid black;
-
-}
-
-#video iframe{
-    width: 100%;
-}
-
-#imagen{
-    
-    display: block;
-    float: left;
-    margin-right: 10px;
-    margin-top: 106px;
-    margin-left: 185px;
-    border-bottom: 2px solid black;
-
-
-}
-
-#imagen img{
-    width: 597px;
-height: 387px;
-}
-
-#audios{
-    
-    float: right;
-    width: 335px;
-height: 118px;
-margin-top: 184px;
-margin-right: 55px;
-border-bottom: 2px solid black;
-
-
-}
-
-#news div .theday{
-    
-    font-style: normal;
-    font-weight: normal;
-    font-size: 27.0824px;
-    line-height: 33px;
-}
-
-/*FIN CONTENIDO*/
-
 /*COMIENZO FOOTER*/
 
 footer{
@@ -225,6 +126,107 @@ border-bottom: 2px solid black;
 }
 
 
+/*COMIENZO CONTENIDO*/
 
+#content{
+    position: static;
+    margin: 2% 4% 2%;
+    width: 1760px;
+    height: 569px;
+    
+}
 
+#contact{
+    font-weight: bold;
+font-size: 47.5px;
+line-height: 58px;
+width: 315px;
+    float: left;
+    margin-left: 55px;
+}
 
+/*FORMULARIO CONTACTO*/
+
+form {
+    margin: 20px auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius:1px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    font: 1em;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 12em;
+    text-align: left;
+  }
+  
+  .button {
+    padding-left: 90px;
+  }
+  
+  button {
+    margin-left: .5em;
+	border-radius:17px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	padding:12px 24px;
+	text-decoration:none;
+	
+  }
+  button:hover{
+      background-color: #000;
+      color: white;
+  }
+
+  #sexo{
+      margin-top: 5px;
+  }
+  #hombre{
+      width: 25px;
+  }
+  #mujer{
+      width: 25px;
+  }
+  #edad{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#mas18{
+    width: 25px;
+}
+#menor18{
+    width: 25px;
+}
