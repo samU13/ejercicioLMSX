@@ -90,6 +90,17 @@ nav ul li a{
     text-align: center;
 }
 
+nav ul li:hover{
+    background-color: black;
+    color: white;
+}
+
+nav ul li:hover a{
+    background-color: black;
+    color: white;
+
+}
+
 /*FIN HEADER*/
 
 /*COMIENZO FOOTER*/
@@ -132,7 +143,7 @@ border-bottom: 2px solid black;
     position: static;
     margin: 2% 4% 2%;
     width: 1760px;
-    height: 618px;
+    height: 615px;
     
 }
 /*ESTILOS CALENDARIO*/

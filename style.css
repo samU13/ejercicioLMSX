@@ -91,6 +91,17 @@ nav ul li a{
     text-align: center;
 }
 
+nav ul li:hover{
+    background-color: black;
+    color: white;
+}
+
+nav ul li:hover a{
+    background-color: black;
+    color: white;
+
+}
+
 /*FIN HEADER*/
 
 /*COMIENZO CONTENIDO*/
@@ -98,6 +109,8 @@ nav ul li a{
 #content{
     position: static;
     margin: 2% 4% 2%;
+    width: 1760px;
+    height: 615px;
     
 }
 #news{
