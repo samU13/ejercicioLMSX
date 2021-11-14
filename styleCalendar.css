@@ -1,4 +1,3 @@
-
 /*ESTILOS GENERALES*/
 
 *{
@@ -93,104 +92,6 @@ nav ul li a{
 
 /*FIN HEADER*/
 
-/*COMIENZO CONTENIDO*/
-
-#content{
-    position: static;
-    margin: 2% 4% 2%;
-    
-}
-#news{
-    width: 1760px;
-height: 618px;
-
-}
-
-#noticias{
-    float: left;
-    display: block;
-    margin-top: 4%;
-    width: 500px;
-    height: 417;
-}
-
-#noticias .tituloNoticia{
-    
-    font-style: normal;
-    font-weight: bold;
-    font-size: 47.5px;
-    line-height: 58px;
-}
-#article{
-    font-style: normal;
-font-weight: normal;
-font-size: 27.0824px;
-line-height: 33px;
-}
-
-#fecha{
-    
-font-style: normal;
-font-weight: 275;
-font-size: 24px;
-line-height: 29px;
-}
-
-
-#video{
-    
-    width: 411px;
-height: 310px;
-    display: block;
-    float: right;
-    margin-right: 20px;
-    border-bottom: 2px solid black;
-
-}
-
-#video iframe{
-    width: 100%;
-}
-
-#imagen{
-    
-    display: block;
-    float: left;
-    margin-right: 10px;
-    margin-top: 106px;
-    margin-left: 185px;
-    border-bottom: 2px solid black;
-
-
-}
-
-#imagen img{
-    width: 597px;
-height: 387px;
-}
-
-#audios{
-    
-    float: right;
-    width: 335px;
-height: 118px;
-margin-top: 184px;
-margin-right: 55px;
-border-bottom: 2px solid black;
-
-
-}
-
-#news div .theday{
-    
-    font-style: normal;
-    font-weight: normal;
-    font-size: 27.0824px;
-    line-height: 33px;
-}
-
-/*FIN CONTENIDO*/
-
 /*COMIENZO FOOTER*/
 
 footer{
@@ -225,6 +126,83 @@ border-bottom: 2px solid black;
 }
 
 
+/*COMIENZO CONTENIDO*/
+
+#content{
+    position: static;
+    margin: 2% 4% 2%;
+    width: 1760px;
+    height: 618px;
+    
+}
+/*ESTILOS CALENDARIO*/
+
+#calendario{
+    display: inline-block;
+    margin-left: 150px;
+    
+}
+
+table {
+    border: 1px solid #999;
+    border-collapse: collapse;
+    
+    }
+th {
+    border: 1px solid #999;
+    font-size: 70%;
+    text-transform: uppercase;
+    }
+td {
+    border: 1px solid #999;
+    height: 6em;
+    width:6em;
+    padding: 5px;
+    vertical-align: top;
+    }
+caption {
+    font-size: 200%;
+    text-align: left;
+
+    }
+.day {
+    text-align: right;
+    }
+.dayS {
+        color: white;
+        text-align: right;
+        background-color: rgb(71, 65, 71);
+        }
+        
+.nota {
+        color: white;
+    font-size: 80%;
+    text-align: center;
+    padding-left: 2px;
+    padding-top: 5px;
+    background-color: rgb(71, 65, 71);
+    }
+.entrega {
+    background-color: rgb(71, 65, 71);
+    }
 
 
+/*ESTILOS LISTA*/
 
+aside{
+    float: right;
+}
+
+ul {
+    display: inline-block;
+    
+    list-style: none;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: right;
+    margin-right: 230px;
+}
+
+ul li{
+    padding-top: 7px;
+}
