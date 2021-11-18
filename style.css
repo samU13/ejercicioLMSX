@@ -12,7 +12,7 @@
 
 #content{
     position: static;
-    
+
     background-color: #fdf5e3;
 }
 
@@ -33,14 +33,14 @@ a:hover{
 
 header{
     position: static;
-width: 1768px;
-height: 120px;
-margin-top: 2%;
-margin-left: 3%;
-margin-right: 3%;
-margin-bottom: 1%;
-border-top: 2px solid black;
-border-bottom: 2px solid black;
+    width: 1768px;
+    height: 120px;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 
 }
 
@@ -51,12 +51,12 @@ header h1 a{
     font-size: 64.1667px;
     line-height: 78px;
     margin-top: 21px;
-    
+
 }
 
 header h1 a span strong{
     font-weight:500;
-    
+
 }
 
 
@@ -66,7 +66,7 @@ nav ul{
     padding: 0;
     display: block;
     overflow: hidden;
-    
+
 }
 
 nav ul li{
@@ -111,11 +111,11 @@ nav ul li:hover a{
     margin: 2% 4% 2%;
     width: 1760px;
     height: 615px;
-    
+
 }
 #news{
     width: 1760px;
-height: 618px;
+    height: 618px;
 
 }
 
@@ -124,11 +124,11 @@ height: 618px;
     display: block;
     margin-top: 4%;
     width: 500px;
-    height: 417;
+    height: 417px;
 }
 
 #noticias .tituloNoticia{
-    
+
     font-style: normal;
     font-weight: bold;
     font-size: 47.5px;
@@ -136,25 +136,25 @@ height: 618px;
 }
 #article{
     font-style: normal;
-font-weight: normal;
-font-size: 27.0824px;
-line-height: 33px;
-text-align: justify;
+    font-weight: normal;
+    font-size: 27.0824px;
+    line-height: 33px;
+    text-align: justify;
 }
 
 #fecha{
-    
-font-style: normal;
-font-weight: 275;
-font-size: 24px;
-line-height: 29px;
+
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: lighter;
 }
 
 
 #video{
-    
+
     width: 411px;
-height: 310px;
+    height: 310px;
     display: block;
     float: right;
     margin-right: 20px;
@@ -167,7 +167,7 @@ height: 310px;
 }
 
 #imagen{
-    
+
     display: block;
     float: left;
     margin-right: 10px;
@@ -180,23 +180,23 @@ height: 310px;
 
 #imagen img{
     width: 597px;
-height: 387px;
+    height: 387px;
 }
 
 #audios{
-    
+
     float: right;
     width: 335px;
-height: 118px;
-margin-top: 184px;
-margin-right: 55px;
-border-bottom: 2px solid black;
+    height: 118px;
+    margin-top: 184px;
+    margin-right: 55px;
+    border-bottom: 2px solid black;
 
 
 }
 
 #news div .theday{
-    
+
     font-style: normal;
     font-weight: normal;
     font-size: 27.0824px;
@@ -209,16 +209,15 @@ border-bottom: 2px solid black;
 
 footer{
     width: 1747px;
-height: 60px;
-margin-left: 3%;
-margin-right: 3%;
-margin-bottom: 1%;
-font-style: normal;
-font-weight: 275;
-font-size: 18px;
-line-height: 22px;
-border-top: 2px solid black;
-border-bottom: 2px solid black;
+    height: 60px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 #copy{
@@ -226,7 +225,7 @@ border-bottom: 2px solid black;
     margin-top: 18px;
     padding-right: 283px;
     border-right: 2px solid black;
-    
+
 }
 
 #enlaces{
